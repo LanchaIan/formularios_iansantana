@@ -1,10 +1,14 @@
 <html>
     <body>
-    <form action="accion.php" method="post">
-        <p>numero dedos: <input type="text" name="dedos" /></p>
-        <p>numero extremidades: <input type="text" name="extremidades" /></p>
+    <form action="manejando_formularios2.php" method="post">
+        <p>materia favorita: <input type="text" name="materia" /></p>
+        <p>deporte favorito: <input type="text" name="deporte" /></p>
+        <p>Lugares que te gustan</P>
+        <p>Playa<input type="checkbox" name="lugares[]" value="playa"/></p>
+        <p>Montaña<input type="checkbox" name="lugares[]" value="montaña"/></p>
         <p><input type="submit" /></p>
     </form>
+
     </body>
 </html>
 
